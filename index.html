@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Paing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap clearfix">
+        <aside class="main left">
+            <div class="box color">
+                <ul class="clearfix">
+                    <li style="background: #fff" data-color="#fff"></li>
+                    <li style="background: #00FFFF" data-color="#00FFFF"></li>
+                    <li style="background: #7FFFD4" data-color="#7FFFD4"></li>
+                    <li style="background: #F5F5DC" data-color="#F5F5DC"></li>
+                    <li style="background: #0000FF" data-color="#0000FF"></li>
+                    <li style="background: #8A2BE2" data-color="#8A2BE2"></li>
+                    <li style="background: #A52A2A" data-color="#A52A2A"></li>
+                    <li style="background: #DEB887" data-color="#DEB887"></li>
+                    <li style="background: #5F9EA0" data-color="#5F9EA0"></li>
+                    <li style="background: #7FFF00" data-color="#7FFF00"></li>
+                    <li style="background: #6495ED" data-color="#6495ED"></li>
+                    <li style="background: #DC143C" data-color="#DC143C"></li>
+                </ul>
+            </div>
+            <div class="box line">
+                <ul>
+                    <li data-linewidth="1">
+                        <div style="height:1px"></div>
+                    </li>
+                    <li data-linewidth="2">
+                        <div style="height:2px"></div>
+                    </li>
+                    <li data-linewidth="3">
+                        <div style="height:3px"></div>
+                    </li>
+                    <li data-linewidth="4">
+                        <div style="height:4px"></div>
+                    </li>
+                    <li data-linewidth="5">
+                        <div style="height:5px"></div>
+                    </li>
+                    <li data-linewidth="6">
+                        <div style="height:6px"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <button class="reset">Reset</button>
+            </div>
+            <div class="box">
+                <button class="save">Save</button>
+            </div>
+        </aside>
+        <div class="content right">
+            <canvas id="my-draw" width="900" height="600"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>

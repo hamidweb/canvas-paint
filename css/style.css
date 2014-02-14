@@ -1,0 +1,56 @@
+.clearfix:after {
+        display: block;
+        content: ' ';
+        clear: both;
+        height: 0;
+    }
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    body {
+        background: #c9c9c9;
+        cursor: default;
+    }
+    .wrap {
+        width: 960px;
+        margin: 0 auto;
+    }
+    #my-draw {
+        display: block;
+        background: #fff;
+    }
+    aside.main {
+        width: 60px;
+    }
+    .content {
+        width: 900px;
+    }
+    .box ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .box.color ul li {
+        float: left;
+        width: 20px;
+        margin: 0 10px 10px 0;
+        height: 20px;
+        cursor: pointer;
+    }
+    .box.line ul {
+        display: table;
+        width: 100%;
+    }
+    .box.line li {
+        padding-right: 10px;
+        height: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    .box.line li div {
+        background: #000;
+    }
